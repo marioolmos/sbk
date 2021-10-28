@@ -1,0 +1,23 @@
+html, 
+body {
+    scroll-snap-type: y proximity;
+    -webkit-scroll-snap-type: proximity;
+}
+
+.stopsection {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    -webkit-scroll-snap-align: start;
+    -webkit-scroll-snap-stop: always;
+}
+section {
+    scroll-snap-align: none;
+    scroll-snap-stop: none;
+    -webkit-scroll-snap-align: start;
+    -webkit-scroll-snap-stop: normal;
+}
+
+/*section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}*/
